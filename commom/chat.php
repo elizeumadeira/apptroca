@@ -1,4 +1,5 @@
-<div class="container">
+<h3>Negociação</h3>
+<div class="container chat_container">
     <div class="row form-group">
         <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-8 col-lg-offset-2">
             <div class="panel panel-primary">

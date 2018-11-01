@@ -398,3 +398,13 @@ body.sidebar-toggled footer.sticky-footer {
   margin: 0 auto;
   border: none;
 }
+
+.btn_row .fechar_negocio{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 60px;
+}
+
+.btn_row .cancelar_negocio{
+ 
+}

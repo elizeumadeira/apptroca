@@ -59,7 +59,17 @@
     background-color: #555;
 }
 
+.footer_chat{
+    padding: 20px 0;
+}
+
 .footer_chat button{
     width: 100%;
     height: 100%;
 }
+
+
+.chat_container{
+    padding: 20px 0;
+    border: #666 solid 1px;
+  }

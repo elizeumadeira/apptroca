@@ -36,60 +36,14 @@
       <?php require 'commom/sidebar.php'; ?>
 
       <div id="content-wrapper">
+<?php 
+$pagina = $_GET['pagina'];
 
-        <div class="container-fluid">
-
-          <div class="row text-center">
-            <div class="col-5">
-              Vendedor 1
-            </div>
-            <div class="col-2"></div>
-            <div class="col-5">
-              Vendedor 2
-            </div>
-          </div>
-
-          <div class="row produtos">
-            <div class="col-5">
-              <img src="imagens/tenis.png" />
-            </div>
-            <div class="col-2 arrow">
-              <img src="imagens/RepeatArrow.png" />
-            </div>
-            <div class="col-5">
-              <img src="imagens/bola.png" />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-5">
-              Tênis Adidas nº40
-            </div>
-            <div class="col-2"></div>
-            <div class="col-5">
-              Bola Oficial FIFA nova
-            </div>
-          </div>
-          <h3>Comentários</h3>
-          <?php require 'commom/chat.php'; ?>
-
-
-          <div class="row">
-              <div class="col-4">
-              <button class="btn btn-warning btn-sm btn-block">Cancelar</button>
-              </div>
-              <div class="col-8">
-                  <button class="btn btn-success btn-lg btn-block" >Fechar Negócio</button>
-              </div>
-          </div>
-
-
-        </div>
-        <!-- /.container-fluid -->
-
-        <!-- Sticky Footer -->
-        
-
+if($pagina == ''){
+  $pagina = 'index';
+}
+require 'paginas/'.$pagina.'.php';
+?>
       </div>
       <!-- /.content-wrapper -->
 

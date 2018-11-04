@@ -1,4 +1,11 @@
 
+<?php 
+$cod = $_GET['cod'];
+
+if(!$cod){
+    $cod = 0;
+}
+?>
 
         <div class="container-fluid">
 
@@ -14,7 +21,7 @@
 
 <div class="row produtos">
   <div class="col-5">
-    <img src="imagens/tenis.png" />
+    <img src="<?php echo $PRODUTOS[$cod]['IMG']; ?>" />
   </div>
   <div class="col-2 arrow">
     <img src="imagens/RepeatArrow.png" />
@@ -26,7 +33,17 @@
 
 <div class="row">
   <div class="col-5">
-    Tênis Adidas nº40
+  <?php echo $PRODUTOS[$cod]['NOME']; ?>
+  </div>
+  <div class="col-2"></div>
+  <div class="col-5">
+    Bola Oficial FIFA nova
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-5">
+  <?php echo $PRODUTOS[$cod]['DETALHES']; ?>
   </div>
   <div class="col-2"></div>
   <div class="col-5">
@@ -39,7 +56,7 @@
 
 <div class="row btn_row">
     <div class="col-12">
-        <button onclick="window.location = '?pagina=aguardando'" class="btn btn-success btn-lg btn-block fechar_negocio" >Fechar Negócio</button>
+        <button onclick="window.location = '?pagina=aguardando&cod=<?php echo $cod; ?>'" class="btn btn-success btn-lg btn-block fechar_negocio" >Fechar Negócio</button>
     </div>
 
     <div class="col-12">

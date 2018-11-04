@@ -1,3 +1,4 @@
+<?php require 'commom/produtos.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,6 +24,7 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
     <link href="css/chat.css" rel="stylesheet">
+    <link href="css/searchbox.css" rel="stylesheet">
 
   </head>
 
@@ -36,14 +38,14 @@
       <?php require 'commom/sidebar.php'; ?>
 
       <div id="content-wrapper">
-<?php 
-$pagina = $_GET['pagina'];
+      <?php 
+        $pagina = $_GET['pagina'];
 
-if($pagina == ''){
-  $pagina = 'index';
-}
-require 'paginas/'.$pagina.'.php';
-?>
+        if($pagina == ''){
+          $pagina = 'index';
+        }
+        require 'paginas/'.$pagina.'.php';
+      ?>
       </div>
       <!-- /.content-wrapper -->
 

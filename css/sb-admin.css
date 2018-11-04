@@ -408,3 +408,24 @@ body.sidebar-toggled footer.sticky-footer {
 .btn_row .cancelar_negocio{
  
 }
+
+.secaotitulo{
+  margin: 30px 0 0 0;
+}
+
+
+
+
+#carouselExampleIndicators{
+  height: 150px;
+  background-color: #666;
+}
+
+#carouselExampleIndicators img{
+  display: block;
+  max-width:150px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}

@@ -9,6 +9,10 @@ if(!$cod){
 
         <div class="container-fluid">
 
+  <div class="col-12">
+    <a href="/">Voltar</a>
+</div>
+
 <div class="row text-center">
   <div class="col-5">
     Vendedor 1
@@ -56,6 +60,12 @@ if(!$cod){
     <div id="toggle_chat" style="display: none;">
     <?php require 'commom/chat.php'; ?>
     </div>
+
+<div class="row btn_row">
+    <div class="col-12">
+      <button onclick="window.location='/'" class="btn btn-warning btn-sm btn-block">Voltar</button>
+    </div>
+</div>
 
 <div class="row btn_row">
     <div class="col-12">

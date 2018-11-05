@@ -11,7 +11,7 @@
         </div>
         <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
         <div class="input-group-append ">
-            <button class="buscar_btn input-group-text buscar_btn">Buscar</button>
+        <button class="buscar_btn input-group-text buscar_btn" onclick="window.location='?pagina=buscar'">Buscar</button>
         </div>
         </div>
         </div>

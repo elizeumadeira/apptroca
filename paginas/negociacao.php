@@ -9,6 +9,10 @@ if(!$cod){
 
         <div class="container-fluid">
 
+  <div class="col-12">
+    <a href="/">Voltar</a>
+</div>
+
 <div class="row text-center">
   <div class="col-5">
     Vendedor 1
@@ -60,7 +64,7 @@ if(!$cod){
     </div>
 
     <div class="col-12">
-      <button class="btn btn-danger btn-sm btn-block cancelar_negocio">Cancelar Negociação</button>
+      <button class="btn btn-danger btn-sm btn-block cancelar_negocio" onclick="window.location='/'">Cancelar Negociação</button>
     </div>
 </div>
 

@@ -5,6 +5,7 @@ $cod = $_GET['cod'];
 if(!$cod){
     $cod = 0;
 }
+$meucod = $_GET['meuproduto'];
 ?>
 
         <div class="container-fluid">
@@ -31,7 +32,7 @@ if(!$cod){
     <img src="imagens/RepeatArrow.png" />
   </div>
   <div class="col-5">
-    <img src="imagens/bola.png" />
+  <img src="<?php echo $MEUSPRODUTOS[$meucod]['IMG']; ?>" />
   </div>
 </div>
 
@@ -41,7 +42,7 @@ if(!$cod){
   </div>
   <div class="col-2"></div>
   <div class="col-5">
-    Bola Oficial FIFA nova
+ <?php echo $MEUSPRODUTOS[$meucod]['NOME']; ?>
   </div>
 </div>
 
@@ -51,7 +52,7 @@ if(!$cod){
   </div>
   <div class="col-2"></div>
   <div class="col-5">
-    Bola Oficial FIFA nova
+   <?php echo $MEUSPRODUTOS[$meucod]['DETALHES']; ?>
   </div>
 </div>
 
@@ -62,6 +63,8 @@ if(!$cod){
     <div class="col-12">
         <button onclick="window.location = '?pagina=aguardando&cod=<?php echo $cod; ?>'" class="btn btn-success btn-lg btn-block fechar_negocio" >Fechar Negócio</button>
     </div>
+    </div>
+<div class="row btn_row cancelar_negocio_btn_container">
 
     <div class="col-12">
       <button class="btn btn-danger btn-sm btn-block cancelar_negocio" onclick="window.location='/'">Cancelar Negociação</button>

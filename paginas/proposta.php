@@ -1,8 +1,8 @@
 
-<?php 
+<?php
 $cod = $_GET['cod'];
 
-if(!$cod){
+if (!$cod) {
     $cod = 0;
 }
 ?>
@@ -29,13 +29,9 @@ if(!$cod){
 
 <div class="row btn_row">
     <div class="col-12">
-        <button onclick="window.location = '?pagina=negociacao&cod=<?php echo $cod; ?>'" class="btn btn-success btn-lg btn-block fechar_negocio" >Negociar</button>
+        <button onclick="window.location = '?pagina=selecionarmeusprodutos&cod=<?php echo $cod; ?>'" class="btn btn-success btn-lg btn-block fechar_negocio" >Negociar</button>
     </div>
 </div>
 
 
 </div>
-<!-- /.container-fluid -->
-
-<!-- Sticky Footer -->
-

@@ -25,6 +25,7 @@
     <link href="css/sb-admin.css" rel="stylesheet">
     <link href="css/chat.css" rel="stylesheet">
     <link href="css/searchbox.css" rel="stylesheet">
+    <link href="css/aguardando.css" rel="stylesheet">
 
   </head>
 

@@ -57,19 +57,16 @@ if(!$cod){
         <button onclick="$('#toggle_chat').toggle();" class="btn btn-primary btn-lg btn-block" >Enviar mensagem para Vendedor 2</button>
     </div>
   </div>
+
+
+
     <div id="toggle_chat" style="display: none;">
     <?php require 'commom/chat.php'; ?>
     </div>
 
-<div class="row btn_row">
+<div class="row btn_row cancelar_negocio_btn_container">
     <div class="col-12">
-      <button onclick="window.location='/'" class="btn btn-warning btn-sm btn-block">Voltar</button>
-    </div>
-</div>
-
-<div class="row btn_row">
-    <div class="col-12">
-      <button onclick="window.location='/'" class="btn btn-danger btn-sm btn-block cancelar_negocio">Cancelar Negociação</button>
+      <button onclick="window.location='/'" class="btn btn-danger btn-sm btn-block ">Cancelar Negociação</button>
     </div>
 </div>
 

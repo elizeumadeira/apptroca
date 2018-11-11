@@ -10,7 +10,7 @@
 <ul class="lista_produtos">
 <?php
 foreach ($PRODUTOS as $codmp => $produto) {
-    $ahref = '?pagina=proposta&cod=' . $cod ;
+    $ahref = '?pagina=proposta&cod=' . $codmp ;
     echo '<li class="row">
                 <div class="col-4">
                     <a href="'.$ahref.'">

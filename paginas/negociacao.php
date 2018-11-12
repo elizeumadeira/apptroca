@@ -11,7 +11,7 @@ $meucod = $_GET['meuproduto'];
         <div class="container-fluid">
 
   <div class="col-12">
-    <a href="/">Voltar</a>
+    <a href="index.php">Voltar</a>
 </div>
 
 <div class="row text-center">
@@ -67,7 +67,7 @@ $meucod = $_GET['meuproduto'];
 <div class="row btn_row cancelar_negocio_btn_container">
 
     <div class="col-12">
-      <button class="btn btn-danger btn-sm btn-block cancelar_negocio" onclick="window.location='/'">Cancelar Negociação</button>
+      <button class="btn btn-danger btn-sm btn-block cancelar_negocio" onclick="window.location='index.php'">Cancelar Negociação</button>
     </div>
 </div>
 

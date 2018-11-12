@@ -40,7 +40,7 @@
 
       <div id="content-wrapper">
       <?php 
-        $pagina = $_GET['pagina'];
+        $pagina = $_GET['pagina'] ?? '';
 
         if($pagina == ''){
           $pagina = 'index';

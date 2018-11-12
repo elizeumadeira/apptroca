@@ -3,9 +3,14 @@ $sugestoes_cp = $PRODUTOS;
 $sugestoes_arr = array();
 
 for ($i = 0; $i < 5; $i++) {
-    $sorteado = rand(0, sizeof($sugestoes_cp));
-    $sugestoes_arr[] = $sugestoes_cp[$sorteado];
-    unset($sugestoes_cp[$sorteado]);
+
+    $sorteado = rand(0, sizeof($sugestoes_cp)-1);
+
+    if(!array_key_exists($sorteado, $sugestoes_arr)){
+        $sugestoes_arr[$sorteado] = $sugestoes_cp[$sorteado];
+    } else {
+        $i--;
+    }
 }
 
 ?>

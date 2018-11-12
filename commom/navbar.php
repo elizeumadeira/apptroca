@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand  static-top">
 
-      <a class="navbar-brand mr-1" href="/">
+      <a class="navbar-brand mr-1" href="index.php">
         <img src="imagens/apptrocaladoalado.png" />
       </a>
 
@@ -24,7 +24,7 @@
             <a class="dropdown-item" href="#">Another action</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>-->
-            <a class="dropdown-item" href="#">Uma nova requisicao pra vc</a>
+            <a class="dropdown-item" href="index.php?pagina=confirmado&cod=0&meuproduto=0">Uma nova proposta pra você!</a>
           </div>
         </li>
 

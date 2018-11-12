@@ -48,7 +48,11 @@ $meucod = $_GET['meuproduto'];
 
 <div class="row btn_row">
     <div class="col-12">
-        Aguardando confirmação de Vendedor 2
+    <div class=" text-white bg-success" style="padding: 5px; margin: 15px 0;">
+        A troca foi confirmada pelo Vendedor 2<br />
+        Favor, enviar seu produto para o endereço abaixo para finalizar a troca:<br /><br />
+
+        Rua das Laranjeira, 800 - 88000-000 - Florianopolis - SC</div>
     </div>
 </div>
 

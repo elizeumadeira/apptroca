@@ -45,6 +45,14 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   }
 }
 
+.navbar-brand img {
+  height: 100%;
+
+display: block;
+
+width: 120px;
+}
+
 .scroll-to-top {
   position: fixed;
   right: 15px;

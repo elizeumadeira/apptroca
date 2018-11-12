@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand  static-top">
 
-      <a class="navbar-brand mr-1" href="/">AppTroca</a>
+      <a class="navbar-brand mr-1" href="/">
+        <img src="imagens/apptrocaladoalado.png" />
+      </a>
 
       <button class="btn btn-link btn-sm order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>

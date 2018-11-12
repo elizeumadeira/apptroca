@@ -61,7 +61,7 @@ $meucod = $_GET['meuproduto'];
 
 <div class="row btn_row">
     <div class="col-12">
-        <button onclick="window.location = '?pagina=aguardando&cod=<?php echo $cod; ?>'" class="btn btn-success btn-lg btn-block fechar_negocio" >Fechar Negócio</button>
+        <button onclick="window.location = '?pagina=aguardando&cod=<?php echo $cod; ?>&meuproduto=<?php echo $meucod; ?>'" class="btn btn-success btn-lg btn-block fechar_negocio" >Fechar Negócio</button>
     </div>
     </div>
 <div class="row btn_row cancelar_negocio_btn_container">
